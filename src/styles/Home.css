@@ -1,0 +1,75 @@
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(rgba(42, 89, 52, 0.95), rgba(42, 89, 52, 0.95)),
+              url('../assets/hero-bg.jpg') center/cover;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: white;
+}
+
+.hero-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.features {
+  padding: 4rem 0;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.feature-card {
+  background: var(--text-light);
+  padding: 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  text-decoration: none;
+  color: var(--text-dark);
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature-text h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.feature-text p {
+  color: #666;
+  line-height: 1.6;
+}

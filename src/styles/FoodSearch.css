@@ -1,0 +1,121 @@
+.food-search {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.search-controls {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+.search-controls input[type="text"] {
+  flex: 1;
+  padding: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 30px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--accent-color);
+  padding: 0 1rem;
+  border-radius: 30px;
+}
+
+.quantity-control input {
+  width: 80px;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  font-size: 1rem;
+  outline: none;
+}
+
+.search-controls button {
+  padding: 1rem 2rem;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.search-controls button:hover {
+  background: #1b5e20;
+}
+
+.disclaimer {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.results {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  padding: 1rem;
+}
+
+.food-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+}
+
+.food-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+.food-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.nutrition-info {
+  margin-top: 1rem;
+}
+
+.quantity {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.calories {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.nutrients {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nutrients span {
+  background: var(--accent-color);
+  padding: 0.75rem;
+  border-radius: 12px;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  white-space: nowrap;
+}

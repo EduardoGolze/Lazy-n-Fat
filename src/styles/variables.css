@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #2A5934;
+    --secondary-color: #5D9C6E;
+    --accent-color: #F5F5F5;
+    --text-dark: #1A1A1A;
+    --text-light: #FFFFFF;
+    --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --radius: 16px;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
