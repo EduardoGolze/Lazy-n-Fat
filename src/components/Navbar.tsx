@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
-import leafIcon from '../assets/icone.png'; // Importação correta
+import leafIcon from '/src/assets/icone.png';
 import '../styles/Navbar.css';
 
 const Navbar = () => {
