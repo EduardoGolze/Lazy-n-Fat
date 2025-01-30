@@ -29,7 +29,7 @@ const FoodSearch = () => {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Ex: arroz, frango..."
+          placeholder="Pesquise em ingles para melhores resultados Ex: rice, chicken..."
         />
         <div className="quantity-control">
           <input
